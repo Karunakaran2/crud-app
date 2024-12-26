@@ -3,10 +3,10 @@ import Swal from 'sweetalert2';
 
 const Login = ({ setIsAuthenticated }) => {
   const adminEmail = 'admin@example.com';
-  const adminPassword = 'qwerty';
+  const adminPassword = 'passwd';
 
   const [email, setEmail] = useState('admin@example.com');
-  const [password, setPassword] = useState('qwerty');
+  const [password, setPassword] = useState('passwd');
 
   const handleLogin = e => {
     e.preventDefault();
